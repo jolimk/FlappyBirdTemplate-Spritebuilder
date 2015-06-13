@@ -4,7 +4,7 @@
 
 @implementation GamePlayScene
 
-- (void)initialize[self addObstacle];
+- (void)initialize
 {
     // your code here
     character = (Character*)[CCBReader load:@"Character"];
